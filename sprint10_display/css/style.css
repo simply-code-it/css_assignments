@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/* main {
+    width: 50%;
+    background-color: aqua;
+} */
+
+p {
+    background-color: lightgray;
+    /* margin: 100px auto; */
+}
+
+.opposite {
+    /* height and width can not be applied to inline element */
+    /* display: inline; */
+    /* display: block; */
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 4rem;
+    margin: 100px;
+
+    /* height and width can be applied to block and inline - block elements */
+    height: 200px;
+}
+
+ul {
+    /* display: none; */
+    list-style-type: none;
+    /* padding:0; */
+    /* padding-left:0; */
+    padding-left: 0.5rem;
+    text-align: right;
+    background-color: rgb(206, 28, 28);
+    margin:0;
+}
+
+li {
+    /* display:none; */
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+li a {
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+li a:hover, li a:focus {
+    text-decoration: underline;
+}

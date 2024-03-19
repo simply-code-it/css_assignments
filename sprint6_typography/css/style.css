@@ -1,0 +1,44 @@
+/* 
+Typography is the way that text is arranged and presented.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: purple;
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Roboto", sans-serif;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-align: left; */
+    /* text-align: justify; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-indent: 2em; */
+    /* line-height: 1.5; */
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 2em; */
+    /* font-weight: bold; */
+    font-style: italic;
+
+
+}

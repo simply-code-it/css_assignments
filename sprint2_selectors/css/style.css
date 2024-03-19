@@ -1,0 +1,58 @@
+/* * {
+    font-family: monospace;
+} */
+
+/* css works like a waterfall */
+/* specificity can override the above model */
+/* class selectors can override the styles that are set  by element selectors */
+/* id selectors can override the styles that are set by class selectors */
+
+
+/* use html or body tag for the properties you want to inherit on entire page */
+/* html {
+    font-size: 22px;
+} */
+
+body {
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+/* form generally do not inherit the parent properties */
+button, input, textarea, select {
+    font: inherit;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+p {
+    color: red;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+
